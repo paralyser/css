@@ -1,6 +1,6 @@
 .top-Cont {
   background-color: #d7fffd;
-  padding-top: 100Px;
+  padding-top: 11vh;
   position: relative;
 }
 h1 {
@@ -10,6 +10,9 @@ body {
   text-align: center;
   margin: 0;
   background-color: #d7fffd;
+  font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  
 }
 
 .kis {
@@ -23,24 +26,28 @@ body {
   background-color: rebeccapurple;
 }
 .top-Cloud {
-  height: 9%; 
-  width: auto;
+  height: auto; 
+  width: 9vw;
   position: absolute;
-  top: 70px;
-  left: calc(50% + 200px);
+  top: 6vh;
+  right:31vw;
 }
 .bottom-Cloud {
   position: absolute;
-  left: calc(50% - 400px);
-  height: 9%;
-  width: auto;
-  top: 200px;
+  left: 32vw;
+  top: 21vh;
+  height: auto;
+  width: 9vw;
+  
 }
 .river {
+  
   position: relative;
   height: auto;
-  width: 50%;
-  bottom: 100px;
+  width: 35vw;
+  top: 0.1vh;
+  
+  
   
 }
 
@@ -50,4 +57,9 @@ position: relative igy tudsz left , right erteket huzni ahhoz kepest, hogy hol v
 position: absolute - mindig a parenthez kepst szamol. 
   lasd div a divben esetleg bodyhoz kepest. megszunteted a tobbi kotottseget ehhez az objektumhoz viszonyitva
   ahhoz, hogy ne a bodyhiz, hanem a divhez kepest szamoljon, a divet relativra kell tenni
-  display: inline-block */
+  display: inline-block 
+  
+Fluid typing:
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+
+*/
