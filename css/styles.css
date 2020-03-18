@@ -1,6 +1,6 @@
-.topCont {
+.top-Cont {
   background-color: #d7fffd;
-  padding-top: 7%;
+  padding-top: 100Px;
   position: relative;
 }
 h1 {
@@ -22,27 +22,32 @@ body {
 .botCont {
   background-color: rebeccapurple;
 }
-.topCloud {
-  height: 9%;
+.top-Cloud {
+  height: 9%; 
   width: auto;
   position: absolute;
-  top: 7%;
-  right: 38%;
+  top: 70px;
+  left: calc(50% + 200px);
 }
-.bottomCloud {
+.bottom-Cloud {
   position: absolute;
-  left: 38%;
+  left: calc(50% - 400px);
   height: 9%;
   width: auto;
+  top: 200px;
 }
 .river {
   position: relative;
-  height: 900px;
-  width: auto;
+  height: auto;
+  width: 50%;
   bottom: 100px;
-  left: 5%;
+  
 }
 
-/* position: relative igy tudsz left , right erteket huzni ahhoz kepest, hogy hol volt/
-position: absolute - mindig a parenthez kepst szamol. lasd div a divben esetleg bodyhoz kepest. megszunteted a tobbi kotottseget ehhez az objektumhoz viszonyitva
-display: inline-block */
+/* 
+position: relative igy tudsz left , right erteket huzni ahhoz kepest, hogy hol volt
+
+position: absolute - mindig a parenthez kepst szamol. 
+  lasd div a divben esetleg bodyhoz kepest. megszunteted a tobbi kotottseget ehhez az objektumhoz viszonyitva
+  ahhoz, hogy ne a bodyhiz, hanem a divhez kepest szamoljon, a divet relativra kell tenni
+  display: inline-block */
