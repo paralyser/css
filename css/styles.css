@@ -1,0 +1,70 @@
+.top-Cont {
+  background-color: #d7fffd;
+  padding-top: 20vh;
+  position: relative;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #d7fffd;
+  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "Parisienne", cursive;
+  margin-top: 0;
+  font-size: calc(14px + (70 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.kis {
+  width: 200px;
+  height: 200px;
+}
+.midCont {
+  background-color: blue;
+}
+.botCont {
+  background-color: rebeccapurple;
+}
+.top-Cloud {
+  height: auto;
+  width: 7vw;
+  position: absolute;
+  top: 13vh;
+  right: 27vw;
+}
+.bottom-Cloud {
+  position: absolute;
+  left: 29vw;
+  top: 28vh;
+  height: auto;
+  width: 7vw;
+}
+.river {
+  position: relative;
+  height: auto;
+  width: 35vw;
+  top: 5vh;
+}
+
+/* 
+position: relative igy tudsz left , right erteket huzni ahhoz kepest, hogy hol volt
+
+position: absolute - mindig a parenthez kepst szamol. 
+  lasd div a divben esetleg bodyhoz kepest. megszunteted a tobbi kotottseget ehhez az objektumhoz viszonyitva
+  ahhoz, hogy ne a bodyhiz, hanem a divhez kepest szamoljon, a divet relativra kell tenni
+  display: inline-block 
+  
+Fluid typing:
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+
+*/
