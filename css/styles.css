@@ -1,0 +1,48 @@
+.topCont {
+  background-color: #d7fffd;
+  padding-top: 7%;
+  position: relative;
+}
+h1 {
+  margin-top: 0;
+}
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #d7fffd;
+}
+
+.kis {
+  width: 200px;
+  height: 200px;
+}
+.midCont {
+  background-color: blue;
+}
+.botCont {
+  background-color: rebeccapurple;
+}
+.topCloud {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 7%;
+  right: 38%;
+}
+.bottomCloud {
+  position: absolute;
+  left: 38%;
+  height: 100px;
+  width: auto;
+}
+.river {
+  position: relative;
+  height: 900px;
+  width: auto;
+  bottom: 100px;
+  left: 5%;
+}
+
+/* position: relative igy tudsz left , right erteket huzni ahhoz kepest, hogy hol volt/
+position: absolute - mindig a parenthez kepst szamol. lasd div a divben esetleg bodyhoz kepest. megszunteted a tobbi kotottseget ehhez az objektumhoz viszonyitva
+display: inline-block */
